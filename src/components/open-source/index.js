@@ -14,7 +14,7 @@ export default function OpenSource() {
         <p>
           Backstroke is built to work on open source projects. In addition, Backstroke itself is
           open source - check us out on Github.  We are greatful for the <span
-            id="gratipay">donations</span> we receive each month on Gratipay.  Thanks for the
+            id="gratipay">donations</span> we receive each week on Gratipay.  Thanks for the
           support!
         </p>
         <div className="open-source-button-group">
