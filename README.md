@@ -17,9 +17,10 @@ Each component has a respective `styles.scss` that is compiled into css during t
 completion, all stylesheets are concatenated together. A stylesheet for each component scopes styles
 to enforce a seperation of concerns.
 
-## Javascript (or, lack thereof)
-Curently, there is no javascript on the site. At some point it'll be needed and we'll add a
-javascript build step to the process, but for now just Reat / SCSS works pretty well.
+## Javascript
+For ease-of-use, all javascript is required in with script tags and unbundled. While bundling may be
+required later, with the quantity of javascript used currently it's a bit heavy handed. A list of
+scripts can be found here: https://github.com/backstrokeapp/www/tree/master/assets/scripts
 
 # Development
 
