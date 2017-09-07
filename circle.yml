@@ -20,7 +20,7 @@ deployment:
     branch: master
     commands:
       - npm i -g surge
-      - surge --project ./build --domain backstroke.surge.sh
+      - surge --project ./build --domain backstroke.co
 
   staging:
     branch: /.*/
