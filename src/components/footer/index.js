@@ -11,7 +11,7 @@ export default function Footer() {
         <li><a href="https://github.com/1egoman/backstroke">Github</a></li>
         <li><a href="https://github.com/backstroke-bot">Bot</a></li>
         <li><a href="https://gratipay.com/Backstroke">Gratipay</a></li>
-        <li><a href="https://app.backstroke.us">Dashboard</a></li>
+        <li><a href="https://app.backstroke.co">Dashboard</a></li>
       </ul>
     </div>
   </div>;
