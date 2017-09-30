@@ -1,0 +1,27 @@
+.sponsored-by {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+
+  opacity: 0.4;
+
+  width: 100%;
+  max-width: 370px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.sponsored-by-header {
+  font-size: 24px;
+  line-height: 38px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+
+.sponsored-by-image img {
+  height: 36px;
+}

@@ -8,6 +8,8 @@ import HeaderLoginButton from './components/header-login-button';
 import HowItWorks from './components/how-it-works';
 import UsedBy from './components/used-by';
 import OpenSource from './components/open-source';
+import SponsoredBy from './components/sponsored-by';
+
 import Footer from './components/footer';
 
 export default <html>
@@ -20,6 +22,7 @@ export default <html>
     <HowItWorks />
     <UsedBy />
     <OpenSource />
+    <SponsoredBy />
 
     <Footer />
 
