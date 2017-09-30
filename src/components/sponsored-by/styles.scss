@@ -1,12 +1,24 @@
 .sponsored-by {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   display: flex;
-  flex-direction: row;
 
+  // The opacity ensures that the logos and the label are the same color.
+  color: #000;
   opacity: 0.4;
+  
+  // On mobile...
+  flex-direction: column;
+  align-items: center;
 
-  width: 100%;
-  max-width: 370px;
+  // On desktop, put the items in-line.
+  @media screen and (min-width: 500px) {
+    flex-direction: row;
+
+    width: 100%;
+    max-width: 370px;
+
+    align-items: left;
+  }
 
   margin-left: auto;
   margin-right: auto;
@@ -24,4 +36,12 @@
 
 .sponsored-by-image img {
   height: 36px;
+
+  // On mobile, provide some vertical spacing betwwen the sponsor and the label.
+  margin-top: 10px;
+
+  // Revert on desktop.
+  @media screen and (min-width: 500px) {
+    margin-top: 0px;
+  }
 }
