@@ -19,7 +19,7 @@ export default function OpenSource() {
         </p>
         <div className="open-source-button-group">
           <a href="https://gratipay.com/Backstroke/" className="open-source-button">Support us on Gratipay</a>
-          <a href="https://github.com/1egoman/backstroke" className="open-source-button faded">View on Github</a>
+          <a href="https://github.com/backstrokeapp" className="open-source-button faded">View on Github</a>
         </div>
       </div>
       <script type="text/javascript" src="/assets/scripts/load-gratipay.js"></script>
