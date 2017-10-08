@@ -26,4 +26,4 @@ deployment:
     branch: /.*/
     commands:
       - npm i -g surge
-      - surge --project ./build --domain backstroke-$CIRCLE_BRANCH.surge.sh
+      - surge --project ./build --domain backstroke-$CIRCLE_SHA1.surge.sh
