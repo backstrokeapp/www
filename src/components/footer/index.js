@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-logo-label">Backstroke</div>
       </div>
       <ul className="footer-list">
-        <li><a href="https://github.com/1egoman/backstroke">Github</a></li>
+        <li><a href="https://github.com/backstrokeapp">Github</a></li>
         <li><a href="https://github.com/backstroke-bot">Bot</a></li>
         <li><a href="https://gratipay.com/Backstroke">Gratipay</a></li>
         <li><a href="https://app.backstroke.co">Dashboard</a></li>
