@@ -13,7 +13,7 @@ export default function OpenSource() {
         <h1>Open Source</h1>
         <p>
           Backstroke is built to work on open source projects. In addition, Backstroke itself is
-          open source - check us out on Github.  We are greatful for the <span
+          open source - check us out on Github.  We are grateful for the <span
             id="gratipay">donations</span> we receive each week on Gratipay.  Thanks for the
           support!
         </p>
