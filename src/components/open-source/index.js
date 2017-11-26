@@ -14,11 +14,11 @@ export default function OpenSource() {
         <p>
           Backstroke is built to work on open source projects. In addition, Backstroke itself is
           open source - check us out on Github.  We are grateful for the <span
-            id="gratipay">donations</span> we receive each week on Gratipay.  Thanks for the
+            id="liberapay">donations</span> we receive each week on Liberapay.  Thanks for the
           support!
         </p>
         <div className="open-source-button-group">
-          <a href="https://gratipay.com/Backstroke/" className="open-source-button">Support us on Gratipay</a>
+          <a href="https://liberapay.com/Backstroke/" className="open-source-button">Support Backstroke</a>
           <a href="https://github.com/backstrokeapp" className="open-source-button faded">View on Github</a>
         </div>
       </div>
