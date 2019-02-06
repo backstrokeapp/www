@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Head from './components/head';
 
+import ShutdownNotice from './components/shutdown-notice';
 import HeaderLogo from './components/header-logo';
 import HeaderBanner from './components/header-banner';
 import HeaderLoginButton from './components/header-login-button';
@@ -15,6 +16,7 @@ import Footer from './components/footer';
 export default <html>
   <Head />
   <body>
+    <ShutdownNotice />
     <HeaderLogo />
     <HeaderBanner />
     <HeaderLoginButton />
